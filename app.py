@@ -40,5 +40,8 @@ add_employee(101, "Arun", "IT")
 add_employee(102, "Priya", "HR")
 
 view_employees()
-
 search_employee(101)
+search_employee(101)
+
+update_employee(101, "Finance")
+view_employees()
