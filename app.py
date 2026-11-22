@@ -42,3 +42,5 @@ add_employee(102, "Priya", "HR")
 view_employees()
 
 search_employee(101)
+delete_employee(102)
+view_employees()
