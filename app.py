@@ -31,7 +31,14 @@ def update_employee(employee_id, new_department):
         if employee["employee_id"] == employee_id:
             employee["department"] = new_department
             print("Employee updated successfully!")
-            return
+
+def delete_employee(employee_id):
+    for employee in employees:
+        if employee["employee_id"] == employee_id:
+            employees.remove(employee)
+            print("Employee deleted successfully!")
+
+         
 
     print("Employee not found")
 
