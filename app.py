@@ -25,7 +25,7 @@ def search_employee(employee_id):
 
     print("Employee not found")
 
-Print("Hello")
+print("Hello")
 
 
 add_employee(101, "Arun", "IT")
