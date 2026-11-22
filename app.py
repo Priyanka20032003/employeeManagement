@@ -25,12 +25,10 @@ def search_employee(employee_id):
 
     print("Employee not found")
 
-print("Hello")
 
 
 add_employee(101, "Arun", "IT")
 add_employee(102, "Priya", "HR")
 
 view_employees()
-
 search_employee(101)
