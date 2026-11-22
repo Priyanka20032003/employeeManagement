@@ -44,3 +44,5 @@ search_employee(101)
 
 update_employee(101, "Finance")
 view_employees()
+
+print("**********************************")
