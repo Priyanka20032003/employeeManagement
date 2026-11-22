@@ -46,3 +46,5 @@ update_employee(101, "Finance")
 view_employees()
 
 print("**********************************")
+
+print(this is error)
